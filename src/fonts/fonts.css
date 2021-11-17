@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "sl";
+  src: url("SFUDINLight.woff2") format("woff2"),
+    url("SFUDINLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "sea";
+  src: url("SFUDINEngAlt.woff2") format("woff2"),
+    url("SFUDINEngAlt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "u";
+  src: url("UTMAvo.woff2") format("woff2"), url("UTMAvo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "ub";
+  src: url("UTMAvoBold.woff2") format("woff2"),
+    url("UTMAvoBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}

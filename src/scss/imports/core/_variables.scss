@@ -1,0 +1,68 @@
+//======================================================BOXED LAYOUT=======================================================
+
+$container-max-width: 100%;
+$container-width: 1010px; // tùy thuộc vào container của bản thiết kế // $container-width = container (đo từ bản thiết kế) + 30px
+
+/*GRID - media queries breakpoints*/
+$xxs-min: 576px; // CÓ THỂ TÙY CHỈNH
+$xs-min: 768px; // KHÔNG THAY ĐỔI
+$sm-min: 992px; // KHÔNG THAY ĐỔI
+$md-min: 1200px; // KHÔNG THAY ĐỔI
+$lg-min: 1600px; // CÓ THỂ TÙY CHỈNH
+
+$xxs-max: ($xxs-min - 1); // Small Mobile
+$xs-max: ($xs-min - 1); // Mobile
+$sm-max: ($sm-min - 1); // Tablet
+$md-max: ($md-min - 1); // Desktop
+$lg-max: ($lg-min - 1); // Large Desktop
+
+//=====================================CÁC BIẾN KHÔNG THAY ĐỔI GIÁ TRỊ KHI RESPONSIVE======================================
+// colors - tuỳ chỉnh
+
+$gradient-cl: linear-gradient(180deg, #df1cff 0%, #814bf6 50.55%, #00bcff 100%);
+
+// timing transition - tuỳ chỉnh
+$t: 0.4s;
+$cubic: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+
+// ========================================CÁC BIẾN CÓ THAY ĐỔI GIÁ TRỊ KHI RESPONSIVE=====================================
+
+:root {
+  //=========== VÍ DỤ ============//
+
+  // font-size & line-height heading
+
+  --h1-fz: 9.5rem;
+  --h1-lh: 12.7rem;
+
+  --h2-fz: 6rem;
+  --h2-lh: 2.1rem;
+
+  --h3-fz: 6.4rem;
+  --h3-lh: 8.6rem;
+
+  --h4-fz: 4.8rem;
+  --h4-lh: auto;
+
+  --h5-fz: 2.97rem;
+  --h5-lh: 3.967rem;
+
+  --body-fz: 2.2rem;
+  --body-lh: auto;
+
+  --body16-fz: 1.6rem;
+  --body16-lh: 2.1rem;
+
+  // Genaral Variable
+
+  --gap: 30px;
+
+  @media (max-width: $sm-max) {
+    // Tablet
+  }
+  @media (max-width: $xs-max) {
+    // Mobile
+  }
+  @media (max-width: $xxs-max) {
+  }
+}
